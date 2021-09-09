@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+ 
+ int a,v,a1,a2,a3,num;
+ printf("enter any four digit number to reverse it\n");
+ scanf("%d",&a);
+  
+ a = v%10 ;
+ v = v/10 ;
+ a1 = v%10 ;
+ v = v/10 ;
+ a2 = v%10 ;
+ v = v/10 ;
+ a3 = v%10 ;
+ 
+ num = 1000*a + 100*a1 + 10*a2 + a3 ;
+ printf("the reverse 4 digit number is %d",num);
+}
+ 
