@@ -1,0 +1,17 @@
+#include <stdio.h>
+ int main()
+ {
+ 
+ 
+ int num,sum,B,A;
+ 
+ printf("enter any four digit number to find sum of 2nd and 3rd digit\n");
+ scanf("%d",&num);
+ 
+ A= (num/100)%10 ;
+ B = (num%100)/10 ;
+ sum = A + B;
+ 
+ printf("print the sum of A and B %d",&sum);
+ }
+ 
