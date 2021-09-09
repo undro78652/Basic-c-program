@@ -12,6 +12,6 @@
  B = (num%100)/10 ;
  sum = A + B;
  
- printf("print the sum of A and B %d",&sum);
+ printf("print the sum of A and B %d",sum);
  }
  
